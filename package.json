@@ -1,0 +1,42 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/App.js",
+  "scripts": {
+    "prestart": "npm run compile",
+    "start": "node dist/App.js",
+    "compile": "tsc"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.3",
+    "crypto-js": "^3.1.9-1",
+    "dateformat": "^3.0.3",
+    "elliptic": "^6.4.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.4.19",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7",
+    "typescript": "^3.2.1",
+    "uuid": "^3.3.2",
+    "websocket": "^1.0.28",
+    "ws": "^6.2.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://hungdangvan.visualstudio.com/ThucTapBlockChain/_git/ThucTapBlockChain"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
